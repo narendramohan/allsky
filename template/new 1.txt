@@ -1,0 +1,164 @@
+				if (document.getElementById('payment').value == "") {
+					errormessage += "Please Select Payment Mode...... \n";
+					document.getElementById('payment').style.borderColor="red";
+				}
+				if (document.getElementById('amount').value == "") {
+					errormessage += "Please Enter Amount...... \n";
+					document.getElementById('amount').style.borderColor="red";
+				}
+				if (document.getElementById('title').value == "") {
+					errormessage += "Please Enter Title...... \n";
+					document.getElementById('title').style.borderColor="red";
+				}
+				if (document.getElementById('fname').value == "") {
+					errormessage += "Please Enter First Name...... \n";
+					document.getElementById('fname').style.borderColor="red";
+				}
+				if (document.getElementById('lname').value == "") {
+					errormessage += "Please Enter Last Name...... \n";
+					document.getElementById('lname').style.borderColor="red";
+				}
+				if (document.getElementById('fathername').value == "") {
+					errormessage += "Please Enter Father's Name...... \n";
+					document.getElementById('fathername').style.borderColor="red";
+				}
+				if (document.getElementById('mothername').value == "") {
+					errormessage += "Please Enter Mother's Name...... \n";
+					document.getElementById('mothername').style.borderColor="red";
+				}
+				if (document.getElementById('dob').value == "") {
+					errormessage += "Please Enter Date of Birth...... \n";
+					document.getElementById('dob').style.borderColor="red";
+				}
+				if (document.getElementById('gender').value == "") {
+					errormessage += "Please Select Gender...... \n";
+					document.getElementById('gender').style.borderColor="red";
+				}
+				if (document.getElementById('maritalstatus').value == "") {
+					errormessage += "Please Enter Marital Status...... \n";
+					document.getElementById('maritalstatus').style.borderColor="red";
+				}
+				if (document.getElementById('category').value == "") {
+					errormessage += "Please Select Category...... \n";
+					document.getElementById('category').style.borderColor="red";
+				}
+				if (document.getElementById('religion').value == "") {
+					errormessage += "Please Select Religion...... \n";
+					document.getElementById('religion').style.borderColor="red";
+				}
+				if (document.getElementById('nationality').value == "") {
+					errormessage += "Please Select Nationality...... \n";
+					document.getElementById('nationality').style.borderColor="red";
+				}	
+				if (document.getElementById('disability').value == "") {
+					errormessage += "Please Select Disability...... \n";
+					document.getElementById('disability').style.borderColor="red";
+				}	
+				if (document.getElementById('cline1').value == "") {
+					errormessage += "Please Enter Door No and House No. in Correspond Address Line 1...... \n";
+					document.getElementById('cline1').style.borderColor="red";
+				}	
+				if (document.getElementById('cline2').value == "") {
+					errormessage += "Please Enter  Building No and Street No in Correspond Address Line 2...... \n";
+					document.getElementById('cline2').style.borderColor="red";
+				}	
+				if (document.getElementById('cline3').value == "") {
+					errormessage += "Please Enter Layout Name in Correspond Address Line 3...... \n";
+					document.getElementById('cline3').style.borderColor="red";
+				}	
+				if (document.getElementById('ccity').value == "") {
+					errormessage += "Please Enter City Name in Correspond Address...... \n";
+					document.getElementById('ccity').style.borderColor="red";
+				}
+				if (document.getElementById('cdistrict').value == "") {
+					errormessage += "Please Enter District Name in Correspond Address...... \n";
+					document.getElementById('cdistrict').style.borderColor="red";
+				}
+				if (document.getElementById('cstate').value == "") {
+					errormessage += "Please Enter State Name in Correspond Address...... \n";
+					document.getElementById('cstate').style.borderColor="red";
+				}
+				if (document.getElementById('cmobile').value == "") {
+					errormessage += "Please Enter Mobile Number in Correspond Address...... \n";
+					document.getElementById('cmobile').style.borderColor="red";
+				}
+				if (document.getElementById('cemail').value == "") {
+					errormessage += "Please Enter City Name in Correspond Address...... \n";
+					document.getElementById('cemail').style.borderColor="red";
+				}
+				if (document.getElementById('pline1').value == "") {
+					errormessage += "Please Enter Door No and House No. in Permanent Address Line 1...... \n";
+					document.getElementById('pline1').style.borderColor="red";
+				}	
+				if (document.getElementById('pline2').value == "") {
+					errormessage += "Please Enter  Building No and Street No in Permanent Address Line 2...... \n";
+					document.getElementById('pline2').style.borderColor="red";
+				}	
+				if (document.getElementById('pline3').value == "") {
+					errormessage += "Please Enter Layout Name in Permanent Address Line 3...... \n";
+					document.getElementById('pline3').style.borderColor="red";
+				}	
+				if (document.getElementById('pcity').value == "") {
+					errormessage += "Please Enter City Name in Permanent Address...... \n";
+					document.getElementById('pcity').style.borderColor="red";
+				}
+				if (document.getElementById('pdistrict').value == "") {
+					errormessage += "Please Enter District Name in Permanent Address...... \n";
+					document.getElementById('pdistrict').style.borderColor="red";
+				}
+				if (document.getElementById('pstate').value == "") {
+					errormessage += "Please Enter State Name in Permanent Address...... \n";
+					document.getElementById('pstate').style.borderColor="red";
+				}
+				if (document.getElementById('cemail').value == "") {
+					errormessage += "Please Enter City Name in Permanent Address...... \n";
+					document.getElementById('cemail').style.borderColor="red";
+				}
+				if (document.getElementById('edusys10').value == "") {
+					errormessage += "Please Enter Education System for Class 10th...... \n";
+					document.getElementById('edusys10').style.borderColor="red";
+				}
+				if (document.getElementById('passingyear10').value == "") {
+					errormessage += "Please Select Year of Passing for Class 10th...... \n";
+					document.getElementById('passingyear10').style.borderColor="red";
+				}	
+				if (document.getElementById('examboard10').value == "") {
+					errormessage += "Please Enter City Board of Exam for Class 10th...... \n";
+					document.getElementById('examboard10').style.borderColor="red";
+				}
+				if (document.getElementById('subject10').value == "") {
+					errormessage += "Please Enter Main Subject for Class 10th...... \n";
+					document.getElementById('subject10').style.borderColor="red";
+				}
+				if (document.getElementById('percentagemark10').value == "") {
+					errormessage += "Please Enter Percentage Obtained in Class 10th...... \n";
+					document.getElementById('percentagemark10').style.borderColor="red";
+				}
+				if (document.getElementById('division10').value == "") {
+					errormessage += "Please Enter Division Obtained in Class 10th...... \n";
+					document.getElementById('division10').style.borderColor="red";
+				}	
+				if (document.getElementById('edusys12').value == "") {
+					errormessage += "Please Enter Education System for Class 12th...... \n";
+					document.getElementById('edusys12').style.borderColor="red";
+				}
+				if (document.getElementById('passingyear12').value == "") {
+					errormessage += "Please Select Year of Passing for Class 12th...... \n";
+					document.getElementById('passingyear12').style.borderColor="red";
+				}	
+				if (document.getElementById('examboard12').value == "") {
+					errormessage += "Please Enter City Board of Exam for Class 12th...... \n";
+					document.getElementById('examboard12').style.borderColor="red";
+				}
+				if (document.getElementById('subject12').value == "") {
+					errormessage += "Please Enter Main Subject for Class 12th...... \n";
+					document.getElementById('subject12').style.borderColor="red";
+				}
+				if (document.getElementById('percentagemark12').value == "") {
+					errormessage += "Please Enter Percentage Obtained in Class 12th...... \n";
+					document.getElementById('percentagemark12').style.borderColor="red";
+				}
+				if (document.getElementById('division12').value == "") {
+					errormessage += "Please Enter Division Obtained in Class 12th...... \n";
+					document.getElementById('division12').style.borderColor="red";
+				}	

@@ -1,0 +1,117 @@
+/* This CSS file is used by home.html only */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#headerOutline {
+	display: block;
+	background-color: #62a3c3;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+	border-width: 2px;
+	margin-top:0px;
+	padding-top: 0px;
+	
+	
+}
+
+#logo {
+	width: 12%;
+	float:left;
+	padding-left: 5px;
+	padding-top: 3px;
+	margin-bottom: 0%;
+
+}
+
+#headtxt {
+	width: 70%;
+	font-size: 170%;
+	float: left;
+	text-align: center;
+	height:50px;
+	margin-bottom: 0%;
+	margin-top: 12px;
+
+	
+}
+
+#mylogout {
+	font-size: 105%;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-top: 12px;
+	margin-bottom: 0%;
+}
+button {
+	padding-left:13px;
+	padding-right:13px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #e6eeff;
+}
+/*button:hover {
+	background-color: #005B9A;
+	color: white;	
+}*/
+.exit-btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.exit-btn { 
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+.exit-btn-2 {
+    padding: 5px 10px 5px 20px;
+    border-radius: 10px;
+}
+.exit-btn-2 {
+    background-color: #6f5499;
+    color: #fff;
+}
+.exit-btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+.exit-btn-2:before {
+    border-right: 2px solid rgba(255,255,255,0.5);
+    content: "\e017";
+}

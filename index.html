@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AngularJS User Registration and Login Example</title>
+<link rel="stylesheet" href="app-content/bootstrap.min.css" />
+<link href="app-content/app.css" rel="stylesheet" />
+
+<style>
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+	height: 450px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+</style>
+</head>
+<body>
+
+
+<div
+	ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }"
+	ng-if="flash" ng-bind="flash.message"></div>
+<div ng-view></div>
+	<!-- <div class="credits text-center">
+		<p>
+			<a href="http://jasonwatmore.com/post/2015/03/10/AngularJS-User-Registration-and-Login-Example.aspx">AngularJS User Registration and Login Example</a>
+		</p>
+		<p>
+            <a href="http://jasonwatmore.com">JasonWatmore.com</a>
+        </p>
+	</div> -->
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="js/angular-cookies.js"></script>
+
+	<script src="app.js"></script>
+	<script src="app-services/authentication.service.js"></script>
+	<script src="app-services/flash.service.js"></script>
+
+	<!-- Real user service that uses an api -->
+	<!-- <script src="app-services/user.service.js"></script> -->
+
+	<!-- Fake user service for demo that uses local storage -->
+	<script src="app-services/user.service.local-storage.js"></script>
+
+	<script src="home/home.controller.js"></script>
+	<script src="login/login.controller.js"></script>
+	<script src="register/register.controller.js"></script>
+</body>
+</html>

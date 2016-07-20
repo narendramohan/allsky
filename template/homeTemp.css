@@ -1,0 +1,28 @@
+/* -------------- this for adminission form ------------------- */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+section {
+	
+	
+}
+
+nav {
+	margin-right: 2%;
+	
+}
+
+#mainbodyposition {
+
+	float: left;
+	margin-left: 1%;
+	margin-right: auto;	
+	width: 83%;
+}
+#myborder {
+	background-color: #9cbedd;
+	padding-top: 10px;
+	margin-bottom: 6px;
+}

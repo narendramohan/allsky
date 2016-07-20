@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="allsky" />
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="loginPage.css"/>
+
+</head>
+
+<body>
+	<div  id="collegeName"> Manjushree College of Nursing </div>
+	<form  action="template/addtemp.php" method="post" >
+		<fieldset style="border:none">
+			<div id="textlogin"><strong>Login</strong></div>
+			<div class="textlabel"> Your User Name </div>
+			<input type="text" id="inputbox" required="required" />
+			<div class="textlabel"> Your Password </div>
+			<input type="password" id="inputbox" required="required"/>
+			<div id="submitButton" > 
+				<input type="submit" value="Submit" id="button" />
+			</div>
+			<div id="forget"><a href = "apps/forgetPage.php">Forget Password</a></d>
+		</fieldset>
+	</form>
+
+</body>

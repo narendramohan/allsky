@@ -1,0 +1,17 @@
+/* ---------------- this page is used by footer.html ------------------*/
+
+#mainfooter {
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto; 
+	border-style: none;
+	
+	
+	
+}
+
+
+#power {
+	text-align: center;
+	font-style: italic;
+}

@@ -1,0 +1,21 @@
+/* -------- this is for save edit and back button  ------- */
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#uname {
+	float:left;
+	clear: both;
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#welcome {
+	float:left;
+	font-style: italic;
+	margin-left: 1%;
+
+}

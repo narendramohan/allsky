@@ -1,0 +1,16 @@
+/*............ this is for Footer page .................. */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#footer {
+
+	background-color: gray;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;	
+	
+}

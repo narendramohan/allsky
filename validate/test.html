@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="allsky" />
+	<title>login testing</title>
+</head>
+<body>
+	<?php
+	
+	$filename = 'mydb.txt';
+// Reading data base login details from a give file.
+	if (file_exists ($filename)) {
+	$handle = fopen($filename, 'r'); // file handle is open to read a file
+	$datain = fread($handle, filesize($filename)); 
+	$words_array = explode (';', $datain);
+	$host="$words_array[0]";
+	$portnum="$words_array[1]";
+	$username="$words_array[2]";
+	$password="$words_array[3]";
+	$databaseName="$words_array[4]";
+	echo "data base login details found......successfully";
+	fclose($handle); //file handler is closed
+// Connecting a data base.		
+	echo "now tying to connect db ......";
+	
+
+	
+	
+} else {
+	echo "$filename doesnot exit or its path is not correct";
+	
+}
+
+	?>
+</body>
+</html>

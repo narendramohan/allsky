@@ -1,0 +1,44 @@
+/* ---------------- this is for Nav page ------------- */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu {
+	width: 15%;
+	float:left;
+}
+
+li {
+	list-style-type: none; 
+	text-align: center;
+	background-color: #9cbedd;
+	border-left:1px black solid;
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
+	font-size: 110%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	padding-right: 4%;
+	display:block;
+
+	
+}
+
+a {
+	color: black;
+	display:block;
+}
+li:hover {
+/*----	background-color: #479ff0;      --*/
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px gray;
+	
+	
+}
+
+#home {
+	border-top: 1px black solid;
+	
+}

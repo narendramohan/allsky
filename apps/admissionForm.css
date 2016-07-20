@@ -1,0 +1,66 @@
+/* -------------- this for adminission form ------------------- */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+section {
+	
+	
+}
+
+nav {
+	
+	
+}
+
+#mainbodyposition {
+	background-color: green;
+	float: left;
+	margin-left: 1%;
+	margin-right: auto;	
+	width: 83%;
+}
+input:focus {
+	background-color: #ffff80;
+	
+}
+#button {
+	float: left;
+	margin-left: 75%;
+	width: 25%;
+	
+}
+
+.mybutton {
+	padding: 2px 4px 2px 4px;
+	width: 5em;
+	margin-right: 8%;
+	margin-bottom: 5%;
+	
+}
+
+#section1 {
+	background-color: lightblue;
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-bottom: 5%;
+
+}
+.subsectionheading {
+	background-color: blue;
+	padding: .5em 1em .5em 1em;	
+	
+}
+
+.subsubsection {
+	float: left;
+	margin-right: 8%;
+	margin-bottom: 8%;
+}
+.labelname {
+	margin-left: .5em;
+	margin-right: .5em;
+	
+}
